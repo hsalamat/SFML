@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (cplusplusdemos.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Box.cpp
+  Main.cpp
+  Generating Code...
+  cplusplusdemos.vcxproj -> C:\Hooman\GBC\S4-GAME2002-T163\S4-GAME2002-T163\Week 2\cplusplusdemos\Debug\1 - MemberInitializerList.exe

@@ -1,0 +1,21 @@
+﻿  game.cpp
+c:\hooman\gbc\s4-game2002-t163\game2002-t163-2019\sfml\week2\sfmlweek2 - project 6 - bouncing mushrooms\sfmlweek1- project 0\game.cpp(15): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  main.cpp
+  Generating Code...
+  SFMLWeek1- Project 0.vcxproj -> C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\x64\Debug\SFMLWeek1- Project 0.exe
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\openal32.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-audio-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-audio-d-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-graphics-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-graphics-d-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-network-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-network-d-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-system-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-system-d-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-window-2.dll
+  C:\Hooman\GBC\S4-GAME2002-T163\GAME2002-T163-2019\SFML\Week2\SFMLWeek2 - Project 6 - bouncing mushrooms\\..\..\SFML-2.5.1\bin\sfml-window-d-2.dll
+  11 File(s) copied
