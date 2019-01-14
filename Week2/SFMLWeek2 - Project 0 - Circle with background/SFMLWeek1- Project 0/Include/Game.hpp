@@ -22,11 +22,13 @@ private:
 	sf::RenderWindow		mWindow;
 	sf::CircleShape			mPlayer;
 
+
 #pragma region Step 1
 	sf::Sprite				mBackground;
 	sf::Texture				mTexture;
 	sf::RectangleShape		mPlayer2;
 	sf::Texture				mTexture2;
+	sf::ConvexShape		    mPolygon;
 #pragma endregion
 
 };

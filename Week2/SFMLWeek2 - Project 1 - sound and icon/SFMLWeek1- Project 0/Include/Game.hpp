@@ -3,7 +3,8 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-
+#include <iostream>
+using namespace std;
 
 class Game : private sf::NonCopyable
 {
@@ -28,7 +29,8 @@ private:
 #pragma region Step 1
 	//Set the Icon
 	sf::Image mIcon;
-
+	sf::Image mImage;
+	sf::Image mImage2;
 	//Create a graphical text to display
 	sf::Font mFont;
 	sf::Text mText;

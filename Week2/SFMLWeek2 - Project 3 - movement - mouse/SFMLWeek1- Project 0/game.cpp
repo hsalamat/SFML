@@ -51,17 +51,24 @@ Game::Game()
 	mText.setCharacterSize(50);
 	mText.setFillColor(sf::Color::Black);
 
-	
+
+	sf::Font mFont;
+	sf::Text mText;
+	if (!mFont.loadFromFile("Media/Sansation.ttf"))
+		return;
+
 	mMusic.openFromFile("Media/Textures/nice_music.ogg");
+
 
 	//change some parameters
 	mMusic.setPosition(0, 1, 10); //change its 3D position - the default position is (0,0,0)
+	mMusic.setMinDistance(1);
 	mMusic.setPitch(2); //increase the pitch - pitch represents the perceived fundamental frequency of a sound such as modifying the playing speed of the sound
 	mMusic.setVolume(50); //reduce the volume
 	mMusic.setAttenuation(100); //an attenuation value of 100 will make the sound fade out very quicky as it gets further from the listener - default value is 1
 	mMusic.setLoop(true); //make it loop
 	//Play the music
-	//mMusic.play();
+	mMusic.play();
 
 
 

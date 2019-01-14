@@ -123,6 +123,7 @@ void Game::render()
 	//Question: What do you think will it happen if you comment out the following two lines
 	mWindow.clear();
 	mWindow.draw(mBackground);
+
 	mWindow.draw(mPlayer);
 	mWindow.draw(mText);
 

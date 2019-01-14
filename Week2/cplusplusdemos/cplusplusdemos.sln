@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 - ExplicitConstructor", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3 - Explicit vs Implicit", "3 - Explicit vs Implicit\3 - Explicit vs Implicit.vcxproj", "{FB33D744-F242-490E-87C9-B2DEA362D069}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4 - friendfunction", "4 - friendfunction\4 - friendfunction.vcxproj", "{07D6587E-A91D-4E04-9771-16E21EBC6BE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{FB33D744-F242-490E-87C9-B2DEA362D069}.Release|x64.Build.0 = Release|x64
 		{FB33D744-F242-490E-87C9-B2DEA362D069}.Release|x86.ActiveCfg = Release|Win32
 		{FB33D744-F242-490E-87C9-B2DEA362D069}.Release|x86.Build.0 = Release|Win32
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Debug|x64.ActiveCfg = Debug|x64
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Debug|x64.Build.0 = Debug|x64
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Debug|x86.Build.0 = Debug|Win32
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Release|x64.ActiveCfg = Release|x64
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Release|x64.Build.0 = Release|x64
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Release|x86.ActiveCfg = Release|Win32
+		{07D6587E-A91D-4E04-9771-16E21EBC6BE4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
