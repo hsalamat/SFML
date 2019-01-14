@@ -72,6 +72,7 @@ void Game::run()
 #pragma endregion
 }
 
+
 void Game::processEvents()
 {
 	sf::Event event;
