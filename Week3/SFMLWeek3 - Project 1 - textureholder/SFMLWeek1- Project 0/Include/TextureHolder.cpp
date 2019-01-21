@@ -11,9 +11,12 @@ void TextureHolder::load(Textures::ID id, const std::string &filename) {
 }
 
 
+//step 2
 
 sf::Texture& TextureHolder::get(Textures::ID id)
 {
+	//std::map<Textures::ID, sf::Texture>::iterator found;
+	//let's auto specifier figure out the type
 	auto found = mTextureMap.find(id);
 	assert(found != mTextureMap.end());
 
@@ -28,3 +31,5 @@ const sf::Texture& TextureHolder::get(Textures::ID id) const
 
 	return *found->second;
 }
+
+//end step 2

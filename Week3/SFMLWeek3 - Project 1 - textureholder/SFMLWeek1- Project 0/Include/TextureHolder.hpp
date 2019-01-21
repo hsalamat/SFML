@@ -5,6 +5,8 @@
 #include <stdexcept>
 #include <cassert>
 #include <SFML\Graphics.hpp>
+using namespace std;
+
 namespace Textures
 {
 	enum ID

@@ -26,15 +26,14 @@ Game::Game()
 		std::cout << "Exception: " << e.what() << std::endl;
 		return;
 	}
-#pragma endregion
+
 
 	if (!mFont.loadFromFile("Media/Sansation.ttf")) return;
 	mStatisticsText.setFont(mFont);
 	mStatisticsText.setPosition(5.f, 5.f);
 	mStatisticsText.setCharacterSize(10);
 	mStatisticsText.setFillColor(sf::Color::Black);
-
-#pragma region step 6	
+	
 
 	mBackgroundTexture = textures.get(Textures::Landscape);
 	mBackgroundTexture.setRepeated(true);

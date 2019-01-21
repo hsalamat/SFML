@@ -38,9 +38,7 @@ class Game : private sf::NonCopyable
 		bool					mIsMovingRight;
 		bool					mIsMovingLeft;
 
-		//step 1
-//sf::Texture				mTexture;
-//sf::Sprite				mPlayer;
+
 		TextureHolder			textures;
 		sf::Sprite				airplane;
 		sf::Sprite				landscape;
