@@ -1,4 +1,5 @@
-// function template
+// Function templates are special functions that can operate with generic types. 
+//This allows us to create a function template whose functionality can be adapted to more than one type or class without repeating the entire code for each type.
 #include <iostream>
 #include <string>
 using namespace std;
@@ -6,7 +7,8 @@ using namespace std;
 template <class T>
 T GetMax(T a, T b) {
 	T result;
-	result = (a>b) ? a : b;
+	//a ternary operator is an operator that takes three arguments.
+	result = (a>b) ? a : b;  
 	return (result);
 }
 
@@ -33,13 +35,13 @@ class Foo
 	typedef typename param_t::baz sub_t;
 };
 
-//A typename keyword tells the compiler tjat an identifier is a type not a static member
+//A typename keyword tells the compiler that an identifier is a type not a static member
 template <class T> struct S {
 	typename T::type i;
 };
 
 int main() {
-	string y = "bye";
+
 	int i = 5, j = 6, k;
 	long l = 10, m = 5, n;
 
@@ -59,8 +61,7 @@ int main() {
 	cout << k << endl;
 	cout << n << endl;
 
-	cout << "Press any key to continue: ";
-	getline(cin,y);
+	system("pause");
 
 	return 0;
 }

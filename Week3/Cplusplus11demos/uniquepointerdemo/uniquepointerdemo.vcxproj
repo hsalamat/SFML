@@ -22,7 +22,7 @@
     <ProjectGuid>{FFB3E635-B6C1-4E02-B18C-875041A52A4C}</ProjectGuid>
     <RootNamespace>uniquepointerdemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>Demo 5 - uniquepointerdemo</ProjectName>
+    <ProjectName>Demo 5 - uniquepointer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

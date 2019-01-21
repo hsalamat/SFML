@@ -22,7 +22,7 @@
     <ProjectGuid>{186C93E0-E6BF-49A9-BFDB-A0945B92EA12}</ProjectGuid>
     <RootNamespace>Cplusplus11demos</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>Demo 2 - functiontemplatedemos</ProjectName>
+    <ProjectName>Demo 2 - functiontemplate</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

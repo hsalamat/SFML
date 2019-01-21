@@ -1,8 +1,17 @@
-/* assert example */
+//void assert (int expression);
+//If the argument "expression" of this macro with functional form compares equal to zero(i.e., the expression is false), 
+//a message is written to the standard error device and abort is called, terminating the program execution.
+//If NDEBUG is defined as a macro name at the point in the source code where <assert.h> is included, then assert does nothing.
+
 #include <stdio.h>      /* printf */
+
+// uncomment to disable assert() 
+//#define NDEBUG
 #include <assert.h>     /* assert */
+
 #include <iostream>
 #include <string>
+using namespace std;
 
 void print_number(int* myInt) {
 	assert(myInt != NULL);
@@ -20,9 +29,7 @@ int main()
 	print_number(b);
 	print_number(c);
 
-	std::string y = "bye";
-	std::cout << "Press any key to continue: ";
-	getline(std::cin, y);
+	system("pause");
 
 	return 0;
 }

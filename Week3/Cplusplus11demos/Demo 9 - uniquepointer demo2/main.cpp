@@ -4,6 +4,7 @@
 #include <memory>
 #include <string>
 using namespace std;
+
 class Foo {
 public:
 	int aNumber;
@@ -53,8 +54,7 @@ void myfunc() {
 }
 int main() {
 	myfunc();
-	std::string y = "bye";
-	std::cout << "Press any key to continue: ";
-	getline(std::cin, y);
+	system("pause");
+
 	return 0;
-}
+};
