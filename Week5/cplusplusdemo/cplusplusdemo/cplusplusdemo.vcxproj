@@ -23,6 +23,7 @@
     <ProjectGuid>{358BF265-6855-4908-953C-196CFC6EEDDF}</ProjectGuid>
     <RootNamespace>cplusplusdemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>demo3 - scenenode</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

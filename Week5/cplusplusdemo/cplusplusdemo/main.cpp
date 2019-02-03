@@ -32,6 +32,7 @@ int main()
 	std::unique_ptr<SceneNode> node22(new SceneNode());
 	mSceneLayers[Air]->attachChild(std::move(node22));
 
+
 	mSceneGraph.detachChild(*mSceneLayers[Background]);
 	mSceneGraph.detachChild(*mSceneLayers[Air]);
 
