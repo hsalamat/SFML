@@ -4,25 +4,17 @@
 using namespace std;
 
 
-template <typename T>
-class Command
-{
-public:
-	std::function<void(T&)> action;
-};
-
-
-class A
+class Aircraft
 {
 public:
 	void moveLeft() 
 	{
-		cout << "Moving Left..." << endl;
+		cout << "Aircraft Moving Left..." << endl;
 	}
 
 	void moveRight()
 	{
-		cout << "Moving Right..." << endl;
+		cout << "Aircraft Moving Right..." << endl;
 	}
 };
 
@@ -40,6 +32,13 @@ public:
 	}
 };
 
+template <typename T>
+class Command
+{
+public:
+	std::function<void(T&)> action;
+};
+
 class Command2
 {
 public:
@@ -49,12 +48,12 @@ public:
 
 int main(void)
 {
-	A a;
-	Command<A> b;
-	b.action = &A::moveLeft;
+	Aircraft a;
+	Command<Aircraft> b;
+	b.action = &Aircraft::moveLeft;
 	b.action(a);
 
-	b.action = &A::moveRight;
+	b.action = &Aircraft::moveRight;
 	b.action(a);
 
 
@@ -67,8 +66,7 @@ int main(void)
 	c.action(node);
 
 
-	string bye = "bye";
-	getline(cin, bye);
+	system("pause");
 
 	return 0;
 }

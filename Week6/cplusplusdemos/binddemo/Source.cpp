@@ -44,8 +44,7 @@ int main()
 	f = std::bind(&goodbye, std::placeholders::_1);
 	f(str); 	// equivalent to goodbye(str)
 
-	string bye = "bye";
-	getline(cin, bye);
+	system("pause");
 
 	return 0;
 }

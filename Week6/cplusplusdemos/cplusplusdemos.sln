@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo 2 - functionobject", "cplusplusdemos\cplusplusdemos.vcxproj", "{A18EEAF8-29C4-4A56-B422-37C6BB905E2E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo 1 - functionobject", "cplusplusdemos\cplusplusdemos.vcxproj", "{A18EEAF8-29C4-4A56-B422-37C6BB905E2E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo 1 -bind", "binddemo\binddemo.vcxproj", "{D70EC8B9-59D6-4C70-B7DA-82E555512BA3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo 2 -bind", "binddemo\binddemo.vcxproj", "{D70EC8B9-59D6-4C70-B7DA-82E555512BA3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo 5 - oncommand", "Project1\Project1.vcxproj", "{CDA7711D-6625-41EA-8CF8-9DBA0291F502}"
 EndProject

@@ -101,8 +101,7 @@ int main() {
 	}
 	
 
-	string bye = "bye";
-	getline(cin, bye);
+	system("pause");
 
 	return 0;
 	

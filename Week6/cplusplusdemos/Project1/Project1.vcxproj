@@ -71,12 +71,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(SolutionDir)/../SFML-2.4.2/include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)/../SFML-2.4.2/lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)/../../sfml-2.5.1/include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/../../sfml-2.5.1/lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(SolutionDir)/../SFML-2.4.2/include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)/../SFML-2.4.2/lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)/../../sfml-2.5.1/include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/../../sfml-2.5.1/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)/../../sfml-2.5.1/include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/../../sfml-2.5.1/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)/../../sfml-2.5.1/include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/../../sfml-2.5.1/lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -86,7 +94,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>sfml-main-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -96,6 +104,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

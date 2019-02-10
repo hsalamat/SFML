@@ -17,6 +17,7 @@ void launchMissile(int target)
 }
 
 //A functor is  a class which defines the operator().That lets you create objects which "look like" a function :  unlike regular functions, they can contain state.
+//Since `LaunchMissile` defines `operator()`, it can be used as a function
 struct LaunchMissile {
 	void operator()(float target)
 	{
@@ -40,7 +41,15 @@ int main()
 		launchMissile(42); };
 	launchM2();
 
-	// store the result of a call to std::bind
+
+	//Here, std::function allows you to abstract away exactly what kind of callable object it is you are dealing with — you don't know it's LaunchMissile, 
+	//you just know that it returns void and has one float parameter.
+	LaunchMissile func;
+	std::function<void(float)> f(func);
+	f(3);
+
+	// store the result of a call to std::bind. The function template bind generates a forwarding call wrapper for launchMissile . 
+	//Calling this wrapper is equivalent to invoking launchMissile with some of its arguments bound to args. 
 	std::function<void()> launchM31337 = std::bind(launchMissile, 31337);
 	std::cout << "store the result of the call to std::bind  ";
 	launchM31337();
@@ -74,8 +83,7 @@ int main()
 
 	// demonstrates argument reordering and pass-by-reference
 
-	string bye = "bye";
-
-
-	getline(cin, bye);
+	system("pause");
 }
+
+

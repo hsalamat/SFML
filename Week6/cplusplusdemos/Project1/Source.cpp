@@ -36,6 +36,8 @@ const float PlayerSpeed = 100.f;
 //	cout << "Missile is launched at Position = " << node.getPosition().x << "," << node.getPosition().y << endl;
 //}
 
+
+//when the functor is called, operator is called, then velocity is added to the aircraft position
 struct AircraftMover
 {
 	AircraftMover(float vx, float vy)
@@ -136,8 +138,7 @@ int main() {
 	}
 
 
-	string bye = "bye";
-	getline(cin, bye);
+	system("pause");
 
 	return 0;
 

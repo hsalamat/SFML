@@ -23,7 +23,7 @@
     <ProjectGuid>{D70EC8B9-59D6-4C70-B7DA-82E555512BA3}</ProjectGuid>
     <RootNamespace>binddemo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>demo 1 -bind</ProjectName>
+    <ProjectName>demo 2 -bind</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
